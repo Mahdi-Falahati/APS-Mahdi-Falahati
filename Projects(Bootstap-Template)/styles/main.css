@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "IranSans";
+    src: url("/Projects\(Bootstap-Template\)/Font/FontsFree-Net-ir_sans.ttf");
+}
+
+*{
+    font-family: "IranSans";
+}
