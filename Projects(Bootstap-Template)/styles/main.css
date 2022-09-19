@@ -17,6 +17,11 @@
 /* burger image */
 .section__hedear-img {
     background: #000;
+    height: 80vh;
+    background-image: url("../img/image.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* card */
