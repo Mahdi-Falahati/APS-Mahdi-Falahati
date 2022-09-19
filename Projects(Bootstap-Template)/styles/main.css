@@ -19,7 +19,7 @@
     background: #000;
     height: 80vh;
     background-image: url("../img/image.jpg");
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -56,7 +56,7 @@
     margin: auto;
 }
 
-.card-title{
+.card-title {
     font-size: 14px;
 }
 
@@ -80,4 +80,28 @@
 
 .card__btn:hover .card__title {
     font-size: 16px;
+}
+
+/* footer */
+footer {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 50px 0px 40px 0px;
+}
+
+.about-us p{
+    opacity: .8;
+    font-size: 13px;
+}
+
+.social-media p{
+    font-size: 12px;
+    opacity: .8;
+    text-align: right;
+}
+
+@media screen and (max-width:768px) {
+    .social-media{
+        margin-top: 50px;
+    }
 }
