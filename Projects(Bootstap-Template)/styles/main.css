@@ -3,16 +3,75 @@
     src: url("/Projects\(Bootstap-Template\)/Font/FontsFree-Net-ir_sans.ttf");
 }
 
-*{
+* {
     font-family: "IranSans";
 }
 
-.header{
+.header {
     position: fixed;
     left: 0%;
     right: 0%;
+    z-index: 99;
 }
+
 /* burger image */
-.section__hedear-img{
+.section__hedear-img {
     background: #000;
+}
+
+/* card */
+.card {
+    width: 300px;
+    box-shadow: 0px 0px 15px rgb(167, 167, 167);
+}
+
+.card-btn-p {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(179, 18, 18);
+    color: rgb(255, 255, 255);
+    width: 110px;
+    text-align: center;
+}
+
+/* raiting */
+.rating {
+    width: 120px;
+}
+
+.checked {
+    color: orange;
+}
+
+.card-img {
+    border-radius: 20px;
+    width: 85%;
+    margin: auto;
+}
+
+.card-title{
+    font-size: 14px;
+}
+
+.card__btn {
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.973);
+    color: rgb(214, 184, 10);
+}
+
+.card__title+i {
+    font-size: 18px;
+}
+
+.card__title {
+    transition: all .5s;
+    font-size: 0px;
+}
+
+.card__btn:hover .card__title {
+    font-size: 16px;
 }
